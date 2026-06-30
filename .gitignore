@@ -1,2 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables — never commit real secrets
 .env
-.env.example
+
+# SQLite database file — local dev only, not for production
+instance/
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
